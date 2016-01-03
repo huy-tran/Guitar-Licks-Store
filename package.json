@@ -1,7 +1,7 @@
 {
-  "name": "BnG React Webpack ES6",
+  "name": "guitar-licks-stores",
   "version": "1.0.0",
-  "description": "A basic environment for writing React apps in ES6 and built using webpack",
+  "description": "Simple React App using Flux Architecture",
   "private": true,
   "scripts": {
     "webpack-server": "webpack-dev-server --hot --progress --colors",
@@ -9,7 +9,10 @@
     "start": "npm run webpack-server & npm run web-server"
   },
   "keywords": [
-    "react", "webpack", "es6", "es2015"
+    "react",
+    "webpack",
+    "es6",
+    "es2015"
   ],
   "author": "Humaan",
   "devDependencies": {
@@ -33,7 +36,10 @@
     "webpack-dev-server": "^1.10.1"
   },
   "dependencies": {
-    "react": "^0.13.3"
+    "flux": "^2.1.1",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "react-router-component": "^0.29.0"
   },
   "repository": {
     "type": "git",
