@@ -1,6 +1,4 @@
 <<<<<<< HEAD
-# React-ES6-Webpack-Boilerplate
-Boilerplate for ReactJS and Webpack
 =======
 # Guitar-Licks-Store
 Simple App using Flux Architecture and React (ES5)
